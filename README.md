@@ -1,6 +1,6 @@
 # HTML-web-developer-dio
 
-Desafios de projeto desenvolvidos por mim através do curso "Formação HTML Web Developer", lecionado pela plataforma de educação DIO.
+Aqui contém todo o conteúdo do curso "Formação HTML Web Developer" lecionado pela plataforma de educação DIO, assim como os códigos-fonte de exemplo realizados nas aulas e desafios de projeto propostos. Seja bem-vindo!
 
 ## Desafio de projeto 1
 
