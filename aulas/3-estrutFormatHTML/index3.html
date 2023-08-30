@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags fieldset e legend</title>
+</head>
+<body>
+  <form action="#" method="get">
+    
+    <h3>Você selecionou: Pizza de Calabresa</h3>
+   
+    <fieldset>
+      <legend>Ingredientes</legend>
+      <input type="checkbox" name="ingrediente[]" value="queijo">
+      <label for="queijo">Queijo</label><br>
+      <input type="checkbox" name="ingrediente[]" value="calabresa">
+      <label for="calabresa">Calabresa</label><br>
+      
+      <input type="checkbox" name="ingrediente[]" value="cebola">
+      <label for="cebola">Cebola</label><br>
+      
+      <input type="checkbox" disabled name="ingrediente[]" value="azeitona">
+      <label for="azeitona">Azeitona</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Borda recheada</legend>
+      <input type="radio" name="borda" value="sim">
+      <label for="sim">Sim</label><br>
+      
+      <input type="radio" name="borda" value="nao">
+      <label for="nao">Não</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bebida</legend>
+      <input type="radio" name="bebida" value="suco">
+      <label for="suco">Suco</label><br>
+      <input type="radio" name="bebida" value="refrigerante">
+      <label for="refrigerante">Refrigerante</label><br>
+      <input type="radio" name="bebida" value="agua">
+      <label for="agua">Água</label><br>
+      <input type="radio" name="bebida" value="nenhuma">
+      <label for="nenhuma">Sem bebida</label><br><br>
+    </fieldset>
+
+    <button type="submit">Enviar pedido</button>
+  </form>
+</body>
+</html>

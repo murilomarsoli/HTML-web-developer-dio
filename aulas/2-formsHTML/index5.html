@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Form</title>
+</head>
+<body>
+  <form name="sign-up" method="get" autocomplete="off" action="#">
+    <label for="fname">First name:</label><br>
+    <input type="text" name="name"><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" name="last name"><br>
+    
+    <label for="cargo">Cargo:</label><br>
+    <select name="cargo" id="cargo">
+      <option value="">Selecione o cargo</option>
+      <option selected value="administrativo">Administrativo</option>
+      <option value="gerente">Gerente</option>
+      <option value="diretor">Diretor</option>
+      <option value="presidente">Presidente</option>
+    </select><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" name="age" min="16"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" name="user email"><br>
+    
+    <label for="assunto">Assunto:</label><br>
+    <input type="text" name="assunto"><br>
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea><br><br>
+    
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
