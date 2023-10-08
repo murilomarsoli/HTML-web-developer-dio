@@ -18,7 +18,7 @@ nav {
 }
 
 header {
-  background: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.37)), url('/assets/img/localizacao-e-contato.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.37)), url('../assets/img/localizacao-e-contato.jpg');
   width: 82vw;
   height: 20vh;
   background-size: cover;
