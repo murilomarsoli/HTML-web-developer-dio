@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags estruturais - HTML</title>
+</head>
+<body>
+  <main>
+    <h1>Main</h1>
+    
+    <aside>
+      <h2>Aside Summary</h2>
+      <ul>
+        <li>Section 1</li> <!-- Section: é dependente de seu contexto. Só faz sentido quando associado ao resto da história. -->
+        <li>Section 2</li>
+        <li>Section 3</li>
+        <li>Article 1</li> <!--Article: é independente de seu contexto. Deve ter um título. -->
+        <li>Article 2</li>
+      </ul>
+    </aside>
+
+    <section class="section1"> <!-- Nova seção no doc HTML. Container genérico, geralmente com um título. Não deve ser usada como container para estilização (div) -->
+      <article>
+        <h2>Art 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis deleniti enim culpa sint consequatur consectetur cumque vero? Provident praesentium aliquid accusamus fugiat repudiandae totam eveniet earum delectus necessitatibus esse. <q>"Este é o melhor curso de HTML5 que já fizeram!"</q></p>
+        
+        <blockquote cite="https://querobolsa.com.br/revista/13-citacoes-para-usar-em-qualquer-tema-de-redacao">
+          <p>Todos os seres humanos nascem livres e iguais em dignidade e em direitos.</p>
+        </blockquote> <!-- citação em bloco -->
+        
+        <p>Artigo publicado em <time pubdate>21/01/2022 19:00</time></p>
+      <article>
+      </article>
+        <h2>Art 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cupiditate ratione, modi voluptatibus perspiciatis dolores ea mollitia! Corrupti excepturi similique vel quod repudiandae est molestias vero totam, voluptatum explicabo voluptate.</p>
+      </article>
+    </section>
+    
+
+  </main>
+</body>
+</html>
