@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos especiais - HTML</title>
+</head>
+<body>
+  <!-- select>option*5 -->
+  <select name="browsers"> <!-- select box -->
+    <option value="">Selecione o navegador</option>
+    <option value="chrome">Google Chrome</option>
+    <option value="firefox">Mozilla Firefox</option>
+    <option value="edge">Microsoft Edge</option>
+    <option value="safari">Safari</option>
+    <option value="opera">Opera</option>
+  </select>
+
+  <hr>
+
+  <input list="browsers" type="search" name="search">
+  
+  <datalist id="browsers"> <!-- sugestão de preenchimento/buscas, limitado em relação à formatação (CSS) -->
+    <option value="">Selecione o navegador</option>
+    <option>Google Chrome</option>
+    <option>Mozilla Firefox</option>
+    <option>Microsoft Edge</option>
+    <option>Safari</option>
+    <option>Opera</option>
+  </datalist>
+</body>
+</html>

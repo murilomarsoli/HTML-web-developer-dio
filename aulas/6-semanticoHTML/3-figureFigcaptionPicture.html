@@ -6,14 +6,14 @@
   <title>Imagens</title>
 </head>
 <body>
-  <figure>
-    <img src="../../img/desafio-proj-2a.png" alt="desafio de projeto 2" width="350px"/>
-    <figcaption>Desafio de projeto 2</figcaption>
+  <figure> <!-- container para uma imagem e sua descrição/explicação/texto relacionado -->
+    <img src="beautiful-day-at-the-beach.jpg" alt="Dia bonito na praia" width="350px"/>
+    <figcaption>Dia bonito na praia</figcaption>
   </figure>
 
-  <!-- <picture>
-    <source media="(min-width: 600px)" srcset="../../desafio-de-projeto-2/"/>
-    <img src" alt="Desafio de projeto 2"/>
-  </picture> -->
+  <picture> <!-- container para várias versões de uma mesma imagem de acordo com a largura da tela - carrega uma nova img -->
+    <source srcset="abandoned-iceland-farm-home.jpg" media="(min-width: 600px)">
+    <img src="beautiful-day-at-the-beach.jpg" alt="Fazenda abandonada" width="350px"/>
+  </picture>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <body>
   <form name="sign-up" method="get" autocomplete="off" action="#">
     <label for="fname">First name:</label><br>
-    <input type="text" name="name"><br>
+    <input type="text" name="name" minlength="2"><br>
 
     <label for="lname">Last name:</label><br>
     <input type="text" name="last name"><br>
@@ -32,7 +32,7 @@
     <input type="text" name="assunto"><br>
 
     <label for="mensagem">Mensagem:</label><br>
-    <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea><br><br>
+    <textarea minlength="10" maxlength="250" name="mensagem" id="mensagem" cols="50" rows="10"></textarea><br><br>
     
     <button type="submit">Send</button>
   </form>

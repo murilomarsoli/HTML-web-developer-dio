@@ -8,19 +8,19 @@
 <body>
   <form name="sign-up" method="post" autocomplete="on" action="#">
     <label for="fname">First name:</label><br>
-    <input type="text" name="name"><br>
+    <input type="text" name="name" autofocus required><br>
 
     <label for="lname">Last name:</label><br>
-    <input type="text" name="last name"><br>
+    <input type="text" name="last name" required><br>
       
     <label for="age">Age:</label><br>
-    <input type="number" name="age"><br>
+    <input type="number" name="age" required><br>
     
     <label for="email">Email:</label><br>
-    <input type="email" name="user email"><br>
+    <input type="email" name="user email" required><br>
     
     <label for="password">Password:</label><br>
-    <input type="password" name="password"><br>
+    <input type="password" name="password" required><br>
     
     <button type="submit">Send</button>
   </form>
